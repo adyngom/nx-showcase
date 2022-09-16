@@ -3,6 +3,7 @@
   "version": 2,
   "projects": {
     "colibri-library": "libs/colibri-library",
+    "colibri-library-e2e": "apps/colibri-library-e2e",
     "cool-gears-showcase": "apps/cool-gears-showcase",
     "cool-gears-showcase-e2e": "apps/cool-gears-showcase-e2e",
     "cool-gears-vlog": "apps/cool-gears-vlog",
