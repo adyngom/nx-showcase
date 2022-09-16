@@ -1,5 +1,11 @@
 {
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
-  "projects": {}
+  "projects": {
+    "colibri-library": "libs/colibri-library",
+    "cool-gears-showcase": "apps/cool-gears-showcase",
+    "cool-gears-showcase-e2e": "apps/cool-gears-showcase-e2e",
+    "cool-gears-vlog": "apps/cool-gears-vlog",
+    "cool-gears-vlog-e2e": "apps/cool-gears-vlog-e2e"
+  }
 }
