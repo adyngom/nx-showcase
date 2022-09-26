@@ -21,6 +21,12 @@ export class YoutubeEmbed extends HTMLElement {
         if (name === 'title') {
             this.#title = value;
         }
+        if (name === 'width') {
+            this.#width = value;
+        }
+        if (name === 'height') {
+            this.#height = value;
+        }
         this.#shadowRoot.innerHTML = `
         <style>
                 :host {
@@ -51,8 +57,8 @@ export class YoutubeEmbed extends HTMLElement {
         gyroscope; 
         picture-in-picture" 
         allowfullscreen
-        width="100%"
-        height="405"
+        width="${this.#width}"
+        height="${this.#height}"
         >
     </iframe>`
     }
